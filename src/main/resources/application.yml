@@ -1,0 +1,15 @@
+togglz:
+  features:
+    DESCRIPTION_UPDATE:
+      enabled: false
+    DISCOUNT_APPLIED:
+      enabled: true
+#    APP_SPEAKS_KAZAKH:
+#      enabled: true
+  console:
+    secured: false
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'togglz'
