@@ -1,4 +1,4 @@
-# toggle-feature
+# toggle-feature using spring boot togglz dependency
 
 This project is about enabling differnt different feature flows based on feature flags.
 Feature flag values can be manipulated on the run time in the 'togglz-console'
